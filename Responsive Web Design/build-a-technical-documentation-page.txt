@@ -1,0 +1,470 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Technical Documentation Page</title>
+  </head>
+    <body>
+  <nav id="navbar">
+    <header id="title">Introduction to Web development</header>
+    <ul>
+      <li class="active"><a class="nav-link" href="#introduction" rel="internal">Introduction</a></li>
+      <li><a class="nav-link" href="#documentation_topics" rel="internal">Documentation Topics</a></li>
+      <li><a class="nav-link" href="#web_best_practices" rel="internal">Web Best Practices</a></li>
+      <li><a class="nav-link" href="#html_basics" rel="internal">HTML Basics</a></li>
+      <li><a class="nav-link" href="#css_basics" rel="internal">CSS Basics</a></li>
+      <li><a class="nav-link" href="#javascript_basics" rel="internal">JavaScript Basics</a></li>
+      <li><a class="nav-link" href="#references" rel="internal">References</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <article>
+        <p>Whether you're just getting started with Web development, or are just expanding your horizons into new realms of Web awesomeness, the links here should help you get started.<a class="super" href="#1" rel="internal"><sup>[1]</sup></a></p>
+
+        <p>
+          For another (overlapping) set of links to learning resources, see the <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank"> MDN Learning pages. </a>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="documentation_topics">
+      <header>Documentation Topics</header>
+      <article>
+        <h2>HTML </h2>
+        <ul>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank"> The basics of Hypertext Mark-up Language (HTML) </a> — what exactly is HTML?</li>
+          <li> <a href="https://reference.sitepoint.com/html/page-structure" target="_blank"> Basic structure of a web page </a> — the doctype and document 'tree'.</li>
+          <li> <a href="https://htmldog.com/guides/html/beginner/" target="_blank"> HTML beginners tutorial </a> — a tutorial and exercise that recap and take you through the basics you've learned above.</li>
+
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank"> HTML elements reference guide </a> — a comprehensive guide to HTML elements with details on how browsers support them.</li>
+
+        </ul>
+        <h2>CSS </h2>
+        <ul>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps" target="_blank"> Getting started with CSS </a> — an absolute beginners guide to CSS covers basic concepts and fundamentals</li>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank"> CSS reference guide </a> — a complete guide to CSS with details on the level of Gecko/Firefox support for each..</li>
+          <li> <a href="https://www.w3.org/MarkUp/Guide/Style" target="_blank"> The W3C introduction to styling with CSS </a> — a brief guide to styling web pages for beginners.</li>
+
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/CSS_FAQ" target="_blank"> Common CSS questions </a> — common questions and answers for beginners.</li>
+          <li> <a href="http://html.net/tutorials/css/" target="_blank"> Intermediate CSS concepts </a> — grouping, pseudo-classes and more.</li>
+        </ul>
+
+        <h2>JavaScript </h2>
+        <h3>Beginner </h3>
+        <ul>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank"> Getting started with JavaScript </a> — what is JavaScript and how can it help you?</li>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"> JavaScript reference guide </a> — a comprehensive, regularly updated guide to JavaScript for all levels of learning from beginner to advanced.</li>
+          <li> <a href="https://www.youtube.com/playlist?list=PL7664379246A246CB" target="_blank"> Crockford on JavaScript</a> — an in-depth video series on the JavaScript language.</li>
+
+          <li> <a href="https://eloquentjavascript.net/1st_edition/contents.html" target="_blank"> Eloquent JavaScript </a> — a comprehensive guide to intermediate and advanced JavaScript methodologies</li>
+
+        </ul>
+
+        <h3>Intermediate</h3>
+        <ul>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank">A re-introduction to JavaScript </a> — a recap on the JavaScript programming language aimed at intermediate-level developers</li>
+          <li> <a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/" target="_blank"> Essential JavaScript design patterns</a> — an introduction to essential JavaScript design patterns</li>
+          <li> <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects" target="_blank"> Introduction to object-oriented JavaScript</a> — learn about the JavaScript object model.</li>
+
+          <li> <a href="https://dev.opera.com/articles/view/javascript-best-practices/" target="_blank"> Christian Heilmann's JavaScript best practices </a> — learn about some of the obvious and (not so) obvious best practices when writing JavaScript.</li>
+
+        </ul>
+
+        <h3>Advanced</h3>
+        <ul>
+          <li> <a href="https://johnresig.com/apps/learn/" target="_blank">Learning advanced JavaScript </a> — John Resig's guide to advanced JavaScript</li>
+          <li> <a href="https://www.youtube.com/playlist?list=PL7664379246A246CB" target="_blank"> Crockford on Advanced JavaScript </a> — a three part video series on advanced JavaScript concepts</li>
+          <li> <a href="https://bonsaiden.github.com/JavaScript-Garden/" target="_blank"> JavaScript Garden</a> — Documentation of the most quirky parts of JavaScript.<a class="super" href="#2" rel="internal"><sup>[2]</sup></a></li>
+
+        </ul>
+
+      </article>
+    </section>
+    <section class="main-section" id="web_best_practices">
+      <header>Web Best Practices</header>
+      <article>
+        <p>We have briefly talked about the technologies that you'll use to build websites. Now let's discuss the best practices you should employ to make sure you are using those technologies in the best way that you can.
+
+          When doing web development, the main cause of uncertainty comes from the fact that you don't know what combination of technology each user will use to view your web site:</p>
+
+        <ul>
+          <li>User 1 might be looking at it on an iPhone, with a small, narrow screen. </li>
+          <li>User 2 might be looking at it on a Windows laptop with a widescreen monitor attached to it.</li>
+          <li>User 3 might be blind, and using a screenreader to read the web page out to them.</li>
+          <li>User 4 might be using a really old desktop machine that can't run modern browsers.</li>
+
+        </ul>
+        <p>Because you don't know exactly what your users will use, you need to design defensively — make your web site as flexible as possible, so that all of the above users can make use of it, even if they might not all get the same experience. In short, we are trying to make the web work for all, as much as possible.
+
+          You'll come across the below concepts at some point in your studies.</p>
+
+        <ul>
+          <li><strong> Cross-browser compatibility </strong> is the practice of trying to make sure your webpage works across as many devices as possible. This includes using technologies that all the browsers support, delivering better experiences to browsers that can handle them (progressive enhancement), and/or writing code so that it falls back to a simpler but still usable experience in older browsers (graceful degradation). It also involves a lot of testing to see if anything fails in certain browsers, and then more work to fix those failures. </li>
+          <li><strong> Responsive web design </strong> is the practice of making your functionality and layouts flexible so they can automatically adapt to different browsers. An obvious example is a website that is laid out one way in a widescreen browser on the desktop, but displays as a more compact, single-column layout on mobile phone browsers. Try adjusting the width of your browser window now, and see what happens. </li>
+          <li><strong> Performance </strong> means getting web sites to load as quickly as possible, but also making them intuitive and easy to use so that users don't get frustrated and go somewhere else. </li>
+          <li><strong> Accessibility </strong> means making your websites usable by as many different kinds of people as possible (related concepts are diversity and inclusion, and inclusive design). This includes people with visual impairments, hearing impairments, cognitive disabilities, or physical disabilities. It also goes beyond people with disabilities — how about young or old people, people from different cultures, people using mobile devices, or people with unreliable or slow network connections?</li>
+          <li><strong> Internationalization </strong> means making websites usable by people from different cultures, who speak different languages to your own. There are technical considerations here (such as altering your layout so that it still works OK for right-to-left, or even vertical languages), and human ones (such as using simple, non-slang language so that people who have your language as their second or third language are more likely to understand your text).</li>
+          <li><strong> Privacy & Security. </strong> These two concepts are related but different. Privacy refers to allowing people to go about their business privately and not spying on them or collecting more of their data than you absolutely need to. Security refers to constructing your website in a secure way so that malicious users cannot steal information contained on it from you or your users.<a class="super" href="#3" rel="internal"><sup>[3]</sup></a></li>
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="html_basics">
+      <header>HTML Basics</header>
+      <article>
+        <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.<a class="super" href="#4" rel="internal"><sup>[4]</sup></a></p>
+        <h2>So What exactly is HTML?</h2>
+        <p>
+          HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.</p>
+        <h2>The basics: headings and paragraphs</h2>
+        <p>In HTML, each paragraph has to be wrapped in a p element, like so: </p>
+        <pre>
+        <code><p>I am a paragraph, oh yes I am.</p></code></pre>
+        <p>Each heading has to be wrapped in a heading element:</p>
+        <pre><code>
+        <h1>I am the title of the story.</h1>
+        </code></pre>
+
+        <h2>Implementing structural hierarchy</h2>
+        <p>There are six heading elements: h1 , h2, h3, h4, h5, and h6. Each element represents a different level of content in the document; h1 represents the main heading, h2 represents subheadings, h3 represents sub-subheadings, and so on.</p>
+        <pre>  <code>
+        <h1>This is H1 Heading</h1>
+            <h2>This is H2 Heading</h2>
+                <h3>This is H3 Heading</h3>
+                    <h4>This is H4 Heading</h4>
+                        <h5>This is H5 Heading</h5>
+                            <h6>This is H6 Heading</h6>
+        </code></pre>
+
+        <p>It's really up to you what the elements involved represent, as long as the hierarchy makes sense. You just need to bear in mind a few best practices as you create such structures:</p>
+        <ul>
+          <li> Preferably, you should use a single h1 element per page — this is the top level heading, and all others sit below this in the hierarchy.
+          </li>
+          <li> Make sure you use the headings in the correct order in the hierarchy. Don't use h3 elements to represent subheadings, followed by h2 elements to represent sub-subheadings—that doesn't make sense and will lead to weird results.
+          </li>
+          <li>Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (for example, a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
+          </li>
+        </ul>
+        <h2>Emphasis and importance</h2>
+        <p>In HTML we use the em (emphasis) element to mark up such instances. As well as making the document more interesting to read, these are recognized by screen readers and spoken out in a different tone of voice. Browsers style this as italic by default, but you shouldn't use this tag purely to get italic styling. To do that, you'd use a span element and some CSS, or perhaps an i element (see below).</p>
+        <pre><code>
+          <p>I am <em>glad</em> you weren't <em>late</em>.</p>
+        </code></pre>
+        <p> In HTML we use the strong (strong importance) element to mark up such instances. As well as making the document more useful, again these are recognized by screen readers and spoken in a different tone of voice. Browsers style this as bold text by default, but you shouldn't use this tag purely to get bold styling. To do that, you'd use a span element and some CSS, or perhaps a b element (see below).
+
+        </p>
+        <pre>  <code>
+<p>This liquid is <strong>highly toxic</strong>.</p>
+
+<p>I am counting on you. <strong>Do not</strong> be late!</p>
+        </code></pre>
+        <p>You can nest strong and emphasis inside one another if desired:</p>
+        <pre>
+        <code>
+          <p>This liquid is <strong>highly toxic</strong> —
+            if you drink it, <strong>you may <em>die</em></strong>.</p>
+        </code> </pre>
+      </article>
+    </section>
+    <section class="main-section" id="css_basics">
+      <header>CSS Basics</header>
+      <article>
+        <p> <strong> CSS (Cascading Style Sheets) </strong> is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.<a class="super" href="#5" rel="internal"><sup>[5]</sup></a>
+        </p>
+        <h2> Prerequisites </h2>
+        <p>Before starting this module, you should have:</p>
+        <ul>
+          <li>Basic familiarity with using computers, and using the Web passively (i.e. looking at it, consuming the content.) </li>
+          <li>A basic work environment set up as detailed in <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software" target="_blank"> Installing basic software, </a> and an understanding of how to create and manage files, as detailed in <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files" target="_blank"> Dealing with files. </a></li>
+          <li>Basic familiarity with HTML, as discussed in the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML" target="_blank"> Introduction to HTML module. </a></li>
+        </ul>
+
+        <h2>Guides</h2>
+        <p> This module contains the following articles, which will take you through all the basic theory of CSS, and provide opportunities for you to test out some skills.</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS" target="_blank"> What is CSS? </a></p>
+        <li> <strong> CSS (Cascading Style Sheets) </strong> allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms about the language.</li>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started" target="_blank"> Getting Started With CSS </a></p>
+        <li> In this article we will take a simple HTML document and apply CSS to it, learning some practical things about the language along the way.</li>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured" target="_blank"> How CSS is structured </a></p>
+        <li> Now that you have an idea about what CSS is and the basics of using it, it is time to look a little deeper into the structure of the language itself. We have already met many of the concepts discussed here; you can return to this one to recap if you find any later concepts confusing.</li>
+
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works" target="_blank"> How CSS works </a></p>
+        <li>We have learned the basics of CSS, what it is for and how to write simple stylesheets. In this lesson we will take a look at how a browser takes CSS and HTML and turns that into a webpage.</li>
+
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge" target="_blank"> Using your new knowledge </a></p>
+        <li> With the things you have learned in the last few lessons you should find that you can format simple text documents using CSS, to add your own style to them. This article gives you a chance to do that.</li>
+      </article>
+    </section>
+    <section class="main-section" id="javascript_basics">
+      <header>JavaScript Basics</header>
+      <article>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" target="_blank"> JavaScript is a powerful </a> programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation).<a class="super" href="#6" rel="internal"><sup>[6]</sup></a></p>
+
+        <h2> What is JavaScript? </h2>
+        <p> JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+        <ul>
+          <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. </li>
+          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+        </ul>
+        <p>This means that in the browser, JavaScript can change the way the webpage (DOM) looks. And, likewise, Node.js JavaScript on the server can respond to custom requests from code written in the browser.</p>
+        <h2>Grammer & Types</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#basics" target="_blank"> Basic Syntax & Comments </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations" target="_blank"> Declarations </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_scope" target="_blank"> Variable Scope</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_hoisting" target="_blank"> Variable Hoisting </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#data_structures_and_types" target="_blank"> Data Structures and Types </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#literals" target="_blank"> Literals </a></li>
+        </ul>
+
+        <h2>Control FLow and Error Handling</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement" target="_blank"> if...else </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch_statement" target="_blank"> switch </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#exception_handling_statements" target="_blank"> try/catch/flow </a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#utilizing_error_objects" target="_blank"> error objects </a></li>
+        </ul>
+        <h2>Loops and Iteration</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement" target="_blank"> for </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement" target="_blank"> while </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement" target="_blank"> do...while </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#continue_statement" target="_blank"> continue </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement" target="_blank"> break </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement" target="_blank"> for...in </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement" target="_blank"> for...of </a> </li>
+        </ul>
+        <h2> Functions </h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions" target="_blank"> Defining functions</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#calling_functions" target="_blank"> Calling functions </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_scope" target="_blank"> Function scope </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#closures" target="_blank"> Closures </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#using_the_arguments_object" target="_blank"> Arguments </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters" target="_blank"> & parameters </a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#arrow_functions" target="_blank"> Arrow functions </a> </li>
+        </ul>
+        <h2> Expressions and Operators</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators" target="_blank"> Assignment </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators" target="_blank"> & Comparisons</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators" target="_blank"> Arithmetic operators</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#bitwise_operators" target="_blank"> Bitwise </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators" target="_blank"> & logical operators</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#conditional_(ternary)_operator" target="_blank"> Conditional (ternary) operator</a> </li>
+        </ul>
+        <h2> Numbers and Dates</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#numbersr" target="_blank"> Number literals</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#number_object" target="_blank"> Number object</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#math_object" target="_blank"> Math object</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#date_object" target="_blank"> Date object</a> </li>
+        </ul>
+
+        <h2> Where to find JavaScript information</h2>
+        <p>The JavaScript documentation on MDN includes the following:</p>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Learn Web Development</a> provides information for beginners and introduces basic concepts of programming and the Internet. </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">JavaScript Guide </a> (this guide) provides an overview about the JavaScript language and its objects. </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">JavaScript Guide </a> JavaScript Reference provides detailed reference material for JavaScript. </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="references">
+      <header>References</header>
+      <article>
+        <ul>
+          <li>
+            All the documentation in this page is taken from
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Introduction_to_Web_development" target="_blank">MDN</a>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+  font-family: 'Lato', Arial, sans-serif;
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 2;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  background-color: #3C3735;
+  color: #fff;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#title{
+  color: #eee;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #D3DEDC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar a:hover{
+   background-color: #111;
+   color: #fff;
+   opacity: 1;
+} 
+
+#navbar .active > a{
+  	background-color: #090909; 
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}       
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+    #title{
+    color: #000;
+  }
+
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  
+  #navbar a{
+    color: #000;
+  }
+  
+  #navbar .active > a{ 
+    color: white;
+  }
+  
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+** end of undefined **
+
